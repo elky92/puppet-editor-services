@@ -11,6 +11,13 @@ tmp/
 output/
 
 # Ignore the vendored gems
+lib/vendor/hiera-eyaml
+lib/vendor/molinillo
+lib/vendor/puppet-lint
+lib/vendor/puppetfile-resolver
+lib/vendor/puppet-strings
+lib/vendor/yard
+
 vendor/hiera-eyaml
 vendor/molinillo
 vendor/puppet-lint

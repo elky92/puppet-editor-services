@@ -141,7 +141,7 @@ task build: [:gem_revendor] do
   project_dir = File.dirname(__FILE__)
   output_dir = File.join(project_dir, 'output')
 
-  file_list = ['lib', 'vendor', 'puppet-languageserver', 'puppet-debugserver', 'puppet-languageserver-sidecar', 'LICENSE']
+  file_list = ['lib', 'vendor', 'bin', 'LICENSE']
   # Remove files in the list that do not exist.
   file_list.reject! { |filepath| !File.exists?(filepath) }
 
