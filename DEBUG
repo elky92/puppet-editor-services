@@ -1,0 +1,14 @@
+I, [2022-04-21T18:56:15.124453 #13344]  INFO -- : Language Server is v1.3.0
+D, [2022-04-21T18:56:15.124979 #13344] DEBUG -- : Loading gems...
+E, [2022-04-21T18:56:15.174834 #13344] ERROR -- : Error while loading a critical gem: cannot load such file -- puppet ["/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'", "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'", "/Users/maksimov/Dropbox/scripts.localized/language-servers-repo/puppet-editor-services/lib/puppet_languageserver.rb:74:in `require_gems'", "/Users/maksimov/Dropbox/scripts.localized/language-servers-repo/puppet-editor-services/lib/puppet_languageserver.rb:215:in `init_puppet'", "puppet-languageserver:13:in `<main>'"]
+I, [2022-04-21T18:56:15.189886 #13344]  INFO -- : Starting RPC Server...
+I, [2022-04-21T18:56:15.191027 #13344]  INFO -- : Configured the Language Server to use the Disabled Message Router
+D, [2022-04-21T18:56:15.191283 #13344] DEBUG -- : Using TCP Server
+D, [2022-04-21T18:56:15.231786 #13344] DEBUG -- : TCPSRV: Services running. Press ^C to stop
+D, [2022-04-21T18:56:15.231942 #13344] DEBUG -- : TCPSRV: Started listening on localhost:53584.
+D, [2022-04-21T18:56:15.232340 #13344] DEBUG -- : TCPSRV: Will stop the server in 10 seconds if no connection is made.
+D, [2022-04-21T18:56:15.232629 #13344] DEBUG -- : TCPSRV: Will stop the server when client disconnects
+D, [2022-04-21T18:56:18.340388 #13344] DEBUG -- : TCPSRV: Started shutdown process. Press ^C to force quit.
+D, [2022-04-21T18:56:18.340913 #13344] DEBUG -- : TCPSRV: Stopping services
+D, [2022-04-21T18:56:18.341132 #13344] DEBUG -- : TCPSRV: Waiting for workers to cycle down
+I, [2022-04-21T18:56:18.341475 #13344]  INFO -- : Language Server exited.

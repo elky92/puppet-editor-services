@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 # Add the debug server into the load path
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '../lib/puppet-editor-services'))
 
 require 'puppet_debugserver'
 
