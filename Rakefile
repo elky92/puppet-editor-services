@@ -86,7 +86,7 @@ task :gem_revendor do
 
   # Clean out the vendor directory first
   puts "Clearing the vendor directory..."
-  vendor_dir = File.join(File.dirname(__FILE__),'vendor')
+  vendor_dir = File.join(File.dirname(__FILE__),'lib/vendor')
   gem_list.each do |vendor|
     gem_dir = File.join(vendor_dir,vendor[:directory])
     FileUtils.rm_rf(gem_dir) if Dir.exists?(gem_dir)
